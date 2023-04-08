@@ -1,0 +1,79 @@
+{
+  "Text": "flight from paris to new york",
+  "AlteredText": null,
+  "Intents": {
+    "BookFlight": {
+      "score": 0.9953049
+    }
+  },
+  "Entities": {
+    "str_date": null,
+    "dst_city": null,
+    "or_city": [
+      {
+        "dst_city": [
+          [
+            "Paris"
+          ]
+        ],
+        "$instance": {
+          "dst_city": [
+            {
+              "startIndex": 12,
+              "endIndex": 17,
+              "text": "paris",
+              "score": null,
+              "type": "dst_city",
+              "subtype": null
+            }
+          ]
+        }
+      }
+    ],
+    "To": [
+      {
+        "dst_city": [
+          [
+            "New York"
+          ]
+        ],
+        "$instance": {
+          "dst_city": [
+            {
+              "startIndex": 21,
+              "endIndex": 29,
+              "text": "new york",
+              "score": null,
+              "type": "dst_city",
+              "subtype": null
+            }
+          ]
+        }
+      }
+    ],
+    "$instance": {
+      "str_date": null,
+      "dst_city": null,
+      "or_city": [
+        {
+          "startIndex": 12,
+          "endIndex": 17,
+          "text": "paris",
+          "score": 0.94712317,
+          "type": "From",
+          "subtype": null
+        }
+      ],
+      "To": [
+        {
+          "startIndex": 21,
+          "endIndex": 29,
+          "text": "new york",
+          "score": 0.8602996,
+          "type": "To",
+          "subtype": null
+        }
+      ]
+    }
+  }
+}
